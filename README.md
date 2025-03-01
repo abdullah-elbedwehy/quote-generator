@@ -1,10 +1,16 @@
-# Smart Quote Generator
+#  Quote
 
-A web application that generates and displays inspiring quotes with elegant animations and styling.
+A web application that displays inspiring quotes with elegant animations and styling.
+
+
+![Physics Quote Stack -03-01 (ZKYgHN6N)](https://github.com/user-attachments/assets/b1800e0e-d171-4ef0-906e-8ab8ffc689a7)
+
+## Purpose  
+The purpose of this project is to apply some of the things I have learned, such as integrating Matter.js and working with it!
 
 ## Features
 
-- Dynamic quote generation and display
+
 - Animated quote cards with physics effects
 - Clean and modern user interface
 - CSV data integration for quote storage
@@ -12,7 +18,7 @@ A web application that generates and displays inspiring quotes with elegant anim
 ## Project Structure
 
 ```
-smart-quote-generator/
+quote /
 ├── public/
 │   └── data.csv         # Quote data storage
 ├── src/
@@ -55,7 +61,7 @@ smart-quote-generator/
 This project uses Vite for fast development and building. The main components are:
 
 - `QuoteCard.js` - Handles the display and animation of quotes
-- `quotes_data.js` - Manages quote data and generation
+- `quotes_data.js` - Manages quote 
 - `engine.js` - Controls physics-based animations
 - `main.css` - Contains global styles and animations
 
